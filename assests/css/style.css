@@ -1,0 +1,24 @@
+:root {
+  --main-text: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #004b23;
+  color: #ffffff;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-links-container {
+  display: flex;
+}
