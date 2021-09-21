@@ -4,35 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/css/style.css" />
     <title>Dev personal portfolio</title>
   </head>
 
   <body>
     <header class="header">
-      <!--navigation bar of my portfolio-->
+      <!--navigation bar containing all links-->
       <nav class="nav-container">
-        <!--contains all nav links-->
-        <div class="nav-links-container">
-          <div class="nav-link">
-            <a href="#about-me">About me</a>
-          </div>
+        <!--all links responsive to click-->
+        <div class="nav-link">
+          <a href="#about-me">About me</a>
+        </div>
 
-          <div class="nav-link">
-            <a href="#projects">Projects</a>
-          </div>
+        <div class="nav-link">
+          <a href="#projects">Projects</a>
+        </div>
 
-          <div class="nav-link">
-            <a href="#contact-links">Contact links</a>
-          </div>
+        <div class="nav-link">
+          <a href="#contact-links">Contact links</a>
         </div>
       </nav>
     </header>
 
     <main>
-      <section>
+      <section class="main" id="about-me">
         <!-- needs an id link fo the about me nav link-->
         <!--Flex container containing flex items-->
-        <div>
+        <div class="content">
+          <img src="" alt="" />
+          >
+        </div>
+
+        <div class="about-me">
           <!--div = flex item-->
           <h1>Name</h1>
 
@@ -51,7 +55,7 @@
             </ul>
           </div>
 
-          <div>
+          <div class="contacts" id="contact-links">
             <h2>Contact links</h2>
 
             <a href="url">Email</a>
@@ -61,13 +65,8 @@
         </div>
       </section>
 
-      <section>
+      <section class="projects" id="projects">
         <h2>>Projects</h2>
-        <div>
-          <h3></h3>
-          <img src="" alt="" />
-          <a href=""></a>
-        </div>
 
         <div>
           <h3>project 1</h3>

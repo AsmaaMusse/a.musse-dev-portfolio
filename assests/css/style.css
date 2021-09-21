@@ -6,11 +6,14 @@
   box-sizing: border-box;
 }
 
+/* Black bg for now change to drk green later */
 .header {
   padding: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #004b23;
-  color: #ffffff;
+  background-color: black;
+  color: var(--main-text);
+  position: fixed;
+  width: 100%;
 }
 
 .nav-container {
@@ -19,6 +22,20 @@
   flex-wrap: wrap;
 }
 
-.nav-links-container {
-  display: flex;
+/* this targets the a tags withing the nav link */
+.nav-link a {
+    margin: 10px;
+    color: var(--main-text);
+}
+
+.main {
+    placeholder
+}
+
+.content {
+    placeholder
+}
+
+.about-me {
+    display: flex;
 }
