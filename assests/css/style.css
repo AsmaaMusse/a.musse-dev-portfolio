@@ -31,25 +31,40 @@
   color: var(--main-text);
 }
 
-.container {
-  margin: 20px;
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url(../images/background-picture.jpg);
 }
 
-.content img {
-  display: block;
-  margin: 10px;
-  height: 250px;
-  width: 160px;
-  border-radius: 10px;
-  position: relative;
+/* two column next to each other */
+.column-1 {
+  float: left;
+  padding-left: 10px;
+  padding-right: 90px;
+  margin: 50px;
+  margin-right: 30px;
+  margin-left: 90px;
+  margin-bottom: 70px;
+  background-color: var(--main-text);
 }
 
-.about-me {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  border-style: solid;
-  border-color: var(--border);
+.column-1 p {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.column-2 {
+  float: right;
+  padding-right: 10px;
+  margin: 50px;
+  margin-right: 100px;
+  margin-bottom: 70px;
+}
+
+.column-2 img {
+  max-height: 550px;
+  border-radius: 30px;
 }
 
 /* h1 tag containing a class tag */
@@ -57,18 +72,6 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 30px;
-  text-align: center;
-}
-
-.contacts {
-  font-size: 15px;
-}
-
-.projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .project-title {
