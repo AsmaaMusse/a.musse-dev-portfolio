@@ -74,12 +74,12 @@ body {
   font-size: 30px;
 }
 
+/* section 2 */
 .project-title {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  margin: 5px;
+  margin: 30px;
+  margin-top: 150px;
+  margin-bottom: 70px;
+  font-size: 35px;
 }
 
 .title {
