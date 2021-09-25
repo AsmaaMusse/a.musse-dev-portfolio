@@ -37,7 +37,7 @@ body {
   background-image: url(../images/background-image.jpg);
 }
 
-/* two column next to each other */
+/* section 2 - About me */
 .column-1 {
   float: left;
   padding-right: 90px;
@@ -78,7 +78,7 @@ body {
   float: left;
 }
 
-/* css for Email icons */
+/* css for contact link icons */
 .icon-style {
   height: 40px;
   margin-left: 20px;
@@ -119,6 +119,14 @@ body {
   margin-top: 10px;
 }
 
+.project-one img {
+  max-height: 48%;
+  max-width: 60%;
+  margin-left: 500px;
+  padding-bottom: 20px;
+}
+
+/* contains the rest of the projects 2-6 */
 .project-container {
   display: flex;
   flex-direction: row;
@@ -141,6 +149,7 @@ body {
   object-fit: contain;
 }
 
+/* depending on device viewpoint */
 @media screen (max-width: 676px) {
   .project-container {
     flex-direction: column;
