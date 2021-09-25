@@ -74,6 +74,24 @@ body {
   font-size: 30px;
 }
 
+.link-icon {
+  padding-left: 40px;
+  margin-top: 20px;
+  float: left;
+}
+
+/* css for Email icons */
+.icon-style {
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.icon-style:hover {
+  background-color: chartreuse;
+  padding: 5px;
+}
+
 /* section 2 - Projects */
 .title {
   margin: 30px;
