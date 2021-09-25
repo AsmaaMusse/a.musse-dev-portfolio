@@ -142,7 +142,7 @@ body {
   border-color: var(--main-text);
   background-image: url("../images/coding.jpg");
 }
-
+/* placeholder images are temporary till projects are complete */
 .project-card img {
   width: 265px;
   height: 250px;
