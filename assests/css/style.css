@@ -80,6 +80,7 @@ body {
   margin-top: 500px;
   margin-bottom: 70px;
   font-size: 35px;
+  color: var(--main-text);
 }
 
 .project-title {
@@ -96,7 +97,7 @@ body {
   justify-content: center;
   height: 600px;
   border-style: solid;
-  border-color: var(--border);
+  border-color: var(--main-text);
   background-image: url("../images/coding.jpg");
   margin: 100px;
   margin-top: 10px;
@@ -114,7 +115,7 @@ body {
   border-style: solid;
   width: 300px;
   margin: 15px;
-  border-color: var(--border);
+  border-color: var(--main-text);
   background-image: url("../images/coding.jpg");
 }
 
