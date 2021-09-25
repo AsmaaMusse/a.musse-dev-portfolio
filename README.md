@@ -2,7 +2,7 @@
 
 ## Overview
 
-For this project my aim was to bulid my personal portfolio from scratch using HTML and advanced CSS.
+For this project my aim was to build my personal portfolio from scratch using HTML and advanced CSS.
 https://github.com/AsmaaMusse/a.musse-dev-portfolio/tree/dev
 
 ### What did i do?
