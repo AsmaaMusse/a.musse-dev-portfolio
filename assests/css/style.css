@@ -86,19 +86,18 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 20px;
+  color: var(--main-text);
 }
 
 .project-one {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  border-style: solid;
-  border-color: var(--border);
+  height: 600px;
   width: 700px;
-  height: 500px;
-  margin: 15px;
+  margin: 25px;
   border-color: #008000;
+  background: url(../images/coding.png.jfif);
 }
 
 .project-container {
@@ -106,14 +105,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 10px;
 }
 
 .project-card {
+  background: url(../images/coding.png.jfif);
   border-style: solid;
-  border-color: var(--border);
   width: 300px;
   margin: 15px;
-  position: center;
   border-color: #008000;
 }
 
