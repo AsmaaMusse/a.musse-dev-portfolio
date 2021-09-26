@@ -4,7 +4,7 @@
 
 For this project my aim was to build my personal portfolio from scratch using HTML and advanced CSS.
 
-Diployed Link:https://asmaamusse.github.io/a.musse-dev-portfolio
+Deployed Link:https://asmaamusse.github.io/a.musse-dev-portfolio
 GitHub page:https://github.com/AsmaaMusse/a.musse-dev-portfolio
 
 ### What did i do?
