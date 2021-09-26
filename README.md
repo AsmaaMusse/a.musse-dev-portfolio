@@ -4,7 +4,8 @@
 
 For this project my aim was to build my personal portfolio from scratch using HTML and advanced CSS.
 
-https://github.com/AsmaaMusse/a.musse-dev-portfolio/tree/dev
+Diployed Link:https://asmaamusse.github.io/a.musse-dev-portfolio
+GitHub page:https://github.com/AsmaaMusse/a.musse-dev-portfolio
 
 ### What did i do?
 
@@ -27,6 +28,3 @@ https://github.com/AsmaaMusse/a.musse-dev-portfolio/tree/dev
 
 > Pic on Mobile Viewpoint:
 > ![Veiwpoint-screenshot.jpg](./assests/images/Veiwpoint.portfolio.jpg)
-
-## GitHub Page:
-https://github.com/AsmaaMusse/a.musse-dev-portfolio/tree/dev
