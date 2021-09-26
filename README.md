@@ -23,7 +23,7 @@ https://github.com/AsmaaMusse/a.musse-dev-portfolio/tree/dev
 ## Screenshots:
 
 > Final result
-> ![Portfolio screenshot jpg](../assets/images/Portfolio-screenshot.jpg)]
+> ![Portfolio-screenshot.jpg](./assests/images/Portfolio-screenshot.jpg)
 
 > Pic on Mobile Viewpoint:
-> ![Veiwpoint screenshot](./assets/images/Veiwpoint.portfolio.jpg)
+> ![Veiwpoint-screenshot.jpg](./assests/images/Veiwpoint.portfolio.jpg)
