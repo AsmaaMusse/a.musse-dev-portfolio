@@ -91,7 +91,7 @@ body {
 
 /* section 2 - Projects */
 .title {
-  margin: 30px;
+  text-align: center;
   margin-top: 500px;
   margin-bottom: 70px;
   font-size: 35px;
@@ -105,7 +105,7 @@ body {
   color: var(--main-text);
 }
 
-.project-one {
+.project-one-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -118,7 +118,7 @@ body {
   margin-top: 10px;
 }
 
-.project-one img {
+.project-one-container img {
   max-height: 48%;
   max-width: 60%;
   margin-left: 500px;
@@ -150,7 +150,7 @@ body {
 
 /* depending on device viewpoint */
 @media screen (max-width: 676px) {
-  .project-container {
+  .project-container .project-one {
     flex-direction: column;
   }
 }
