@@ -18,70 +18,92 @@
   <body>
     <header class="header">
       <!--navigation bar containing all links-->
+
       <nav class="nav-container">
+        <div class="nav-image">
+          <img
+            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/81/female-technologist-type-4_1f469-1f3fd-200d-1f4bb.png"
+          />
+        </div>
         <div class="nav-link">
-          <a href="#about-me">About me</a>
+          <a href="#about-me">About</a>
         </div>
 
         <div class="nav-link">
-          <a href="#projects">Projects</a>
+          <a href="#projects">Portfolio</a>
         </div>
 
         <div class="nav-link">
-          <a href="#contact-links">Contact links</a>
+          <a href="#contact-links">Contacts</a>
         </div>
       </nav>
     </header>
 
-    <!--Flex container containing flex items-->
-    <div class="card border-success mb-3" style="max-width: 25rem">
-      <div class="card-header text-success">Asmaa Musse</div>
-      <div class="card-body">
-        <p class="card-text">
-          I'm a United Kingdom based Developer, passionate about Web Designing.
-          Below on the projects section are some of the projects i've worked on
-          through-out my studies.
-        </p>
+    <!--About me container-->
+    <div class="container">
+      <div class="row" style="--bs-gutter-x: 0rem">
+        <div class="card border-success col-md-5" style="max-width: 50rem">
+          <div class="card-header text-success">About Me 👩🏽‍💻</div>
+          <div class="card-body">
+            <p class="card-text">
+              I'm Asmaa Musse, a UK based front-end web Developer. I am
+              passionate about designing new websites from scratch and making
+              clients ideas turn to reality.
+            </p>
+            <p>
+              I develop websites using HTML,CSS and Javascript. Below on the
+              portfolio section you could check out 6 of the project websites i
+              have created so far.
+            </p>
 
-        <h5 class="card-title text-success">Specialties</h5>
-        <ul class="card-text">
-          <li>Web Design</li>
-          <li>HTML/CSS</li>
-          <li>Time Management</li>
-          <li>Computing Literate</li>
-          <li>Multilingual</li>
-        </ul>
+            <h5 class="card-title text-success">Specialties</h5>
+            <ul class="card-text">
+              <li>HTML / CSS / Javascript</li>
+              <li>CSS frameworks - Bootstrap / Bulma</li>
+              <li>jQuery</li>
+              <li>Moment.js</li>
+            </ul>
 
-        <!--all links a responsive and contain an attribute link-->
+            <!--all links a responsive and contain an attribute link-->
+            <h5 class="card-title text-success">Contact Links</h5>
+            <a href="mailto:asmaa99musse@gmail.com">
+              <img
+                src="./assests/images/email.icon.png"
+                class="icon-style"
+                alt="Email-Asmaa99musse@gmail.com"
+            /></a>
 
-        <a href="mailto:asmaa99musse@gmail.com">
+            <a
+              href="https://www.linkedin.com/in/asmaa-m-63994019b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assests/images/linkedin.icon.png"
+                class="icon-style"
+                alt="LinkedIn"
+            /></a>
+
+            <a
+              href="https://github.com/AsmaaMusse"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assests/images/github.icon.png"
+                class="icon-style"
+                alt="GitHub"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Profile picture  -->
+        <div class="picture col-md-5 ms-auto" style="width: 30rem">
           <img
-            src="./assests/images/email.icon.png"
-            class="icon-style"
-            alt="Email-Asmaa99musse@gmail.com"
-        /></a>
-
-        <a
-          href="https://www.linkedin.com/in/asmaa-m-63994019b/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="./assests/images/linkedin.icon.png"
-            class="icon-style"
-            alt="LinkedIn"
-        /></a>
-
-        <a
-          href="https://github.com/AsmaaMusse"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="./assests/images/github.icon.png"
-            class="icon-style"
-            alt="GitHub"
-        /></a>
+            src="./assests/images/personal-portrait.jpg"
+            alt="personal-portrait"
+          />
+        </div>
       </div>
     </div>
   </body>

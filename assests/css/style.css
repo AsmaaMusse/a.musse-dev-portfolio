@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/* Navbar links*/
 .header {
   padding: 15px;
   font-size: 18px;
@@ -15,17 +16,27 @@
   background-color: #049e11;
   color: var(--main-text);
   width: 100%;
-  height: 65px;
-  margin-bottom: 20px;
+  height: 11rem;
+  margin-bottom: 50px;
 }
 
 .nav-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  font-size: 2rem;
 }
 
-/* this targets the a tags withing the nav link */
+.nav-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-height: 150px;
+  max-width: 150px;
+}
+
 .nav-link a {
   margin: 10px;
   color: var(--main-text);
@@ -34,28 +45,21 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: black;
 }
 
-/* section 2 - About me */
-
-.column-2 {
-  float: right;
-  padding-right: 10px;
-  margin: 50px;
-  margin-right: 100px;
-  margin-bottom: 70px;
+/* About me */
+.card-header {
+  font-size: 20px;
+  font-weight: 200;
 }
 
-.column-2 img {
-  max-height: 550px;
-  border-radius: 30px;
-}
-
-/* h1 tag containing a class tag */
-.name {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 30px;
+.card {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  max-height: 50rem;
+  border-radius: 20px;
+  width: 45rem;
 }
 
 .link-icon {
@@ -64,9 +68,8 @@ body {
   float: left;
 }
 
-/* css for contact link icons */
 .icon-style {
-  height: 40px;
+  height: 50px;
   margin-left: 20px;
   margin-top: 5px;
 }
@@ -76,8 +79,16 @@ body {
   padding: 5px;
 }
 
-/* section 2 - Projects */
-.title {
+.picture img {
+  border-radius: 30px;
+  background-color: black;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  max-height: 30rem;
+}
+
+/* Projects */
+/* .title {
   text-align: center;
   margin-top: 500px;
   margin-bottom: 70px;
@@ -113,7 +124,7 @@ body {
 }
 
 /* contains the rest of the projects 2-6 */
-.project-container {
+/* .project-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -127,17 +138,21 @@ body {
   margin: 15px;
   border-color: var(--main-text);
   background-image: url("../images/coding.jpg");
-}
+} */
 /* placeholder images are temporary till projects are complete */
-.project-card img {
+/* .project-card img {
   width: 265px;
   height: 250px;
   padding-bottom: 20px;
-}
+} */
 
 /* depending on device viewpoint */
-@media screen (max-width: 676px) {
-  .project-container .project-one {
+@media screen and (max-width: 992px) {
+  .row {
+    display: flex;
     flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 10px;
   }
-}
+} ;
