@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
@@ -16,25 +24,41 @@
   </head>
 
   <body>
-    <header class="header">
-      <!--navigation bar containing all links-->
+    <header>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <div class="logo">
+            <div class="navbar-item" width="112" height="28">
+              <i class="fas fa-scroll"></i>
+              <span class="logo-title"> Personal Portfolio</span></a>
+            </div>
+          </div>
 
-      <nav class="nav-container">
-        <div class="nav-image">
-          <img
-            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/81/female-technologist-type-4_1f469-1f3fd-200d-1f4bb.png"
-          />
-        </div>
-        <div class="nav-link">
-          <a href="#about-me">About</a>
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
 
-        <div class="nav-link">
-          <a href="#projects">Portfolio</a>
-        </div>
-
-        <div class="nav-link">
-          <a href="#contact-links">Contacts</a>
+        <div id="navbarBasicExample" class="navbar-menu nav-list">
+          <div class="navbar-end">
+            <li class="nav-item navbar-item">
+              <a href="#projects" id="notification-box">Projects</a>
+            </li>
+            <li class="nav-item navbar-item">
+              <a href="#about-me" id="notification-box">About me</a>
+            </li>
+            <li class="last-nav-item navbar-item">
+              <a href="#contact-list">Contact list</a>
+            </li>
+          </div>
         </div>
       </nav>
     </header>
@@ -105,6 +129,18 @@
           />
         </div>
       </div>
+    </div>
+
+    <h2 class="title">Projects</h2>
+
+    <div class="project-1 card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Code Refactor</h5>
+      </div>
+      <img
+        src="./assests/images/project-pics/marketing-agency-screenshot.jpg"
+        class="card-img-top"
+      />
     </div>
   </body>
 </html>
