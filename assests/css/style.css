@@ -1,0 +1,180 @@
+:root {
+  --main-text: #ffffff;
+  --border: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.navbar-menu {
+  background-color: rgb(3, 230, 22);
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  border-collapse: collapse;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: rgb(3, 230, 22);
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.3);
+  color: var(--main-text);
+}
+
+.logo i {
+  margin: 10px;
+}
+
+.logo a {
+  text-decoration: none;
+  align-items: center;
+  color: var(--main-text);
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.logo a:hover {
+  color: var(--main-text);
+  transition: all 200ms ease-in;
+}
+
+.nav-item a,
+.last-nav-item a {
+  text-decoration: none;
+  color: var(--main-text);
+  letter-spacing: 3px;
+  font-size: 22px;
+}
+
+.nav-item a:hover,
+.last-nav-item a:hover {
+  color: var(--main-text);
+  transition: all 200ms ease-in;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: var(--border);
+}
+
+/* About me */
+
+.card-header {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.card {
+  border-color: rgb(3, 230, 22);
+  border-style: 15px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  max-height: 50rem;
+  border-radius: 20px;
+  width: 45rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture img {
+  border-radius: 30px;
+  margin: 30px;
+  max-height: 30rem;
+}
+
+/* Projects */
+.title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  font-size: 35px;
+  color: var(--main-text);
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: var(--main-text);
+  margin: 15px;
+}
+
+.project-1 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 70rem;
+}
+
+.card a {
+  margin: auto;
+}
+
+.card img {
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+/* contains the rest of the projects 2-6 */
+.row.row-cols-1.row-cols-md-2.g-4 {
+  margin: 20px;
+}
+
+/* depending on device viewpoint */
+@media screen and (max-width: 1440px) {
+  .card {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 1408px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    margin: 15px;
+  }
+
+  .card {
+    max-width: 40rem;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .header {
+    width: 41rem;
+  }
+
+  .picture img {
+    margin: auto;
+  }
+}
