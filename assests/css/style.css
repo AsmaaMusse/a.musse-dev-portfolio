@@ -36,7 +36,7 @@
 }
 
 .logo i {
-  margin-right: 10px;
+  margin: 10px;
 }
 
 .logo a {
@@ -74,15 +74,14 @@ body {
 
 /* About me */
 
-.card.border-success {
-}
-
 .card-header {
   font-size: 20px;
   font-weight: 200;
 }
 
 .card {
+  border-color: rgb(3, 230, 22);
+  border-style: 15px;
   margin-bottom: 20px;
   margin-right: 20px;
   max-height: 50rem;
@@ -90,21 +89,9 @@ body {
   width: 45rem;
 }
 
-.link-icon {
-  padding-left: 20px;
-  margin-top: 20px;
-  float: left;
-}
-
-.icon-style {
-  height: 50px;
-  margin-left: 20px;
-  margin-top: 5px;
-}
-
-.icon-style:hover {
-  background-color: rgb(65, 226, 78);
-  padding: 5px;
+.contacts {
+  display: flex;
+  flex-direction: column;
 }
 
 .picture img {
@@ -123,6 +110,11 @@ body {
   color: var(--main-text);
 }
 
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+
 .project-title {
   display: flex;
   justify-content: center;
@@ -136,37 +128,23 @@ body {
   display: flex;
   align-items: center;
   margin: auto;
+  width: 70rem;
 }
 
-.card-img-top {
-  display: flex;
-  padding: 30px;
-  height: 600px;
+.card a {
+  margin: auto;
+}
+
+.card img {
   width: 500px;
+  height: 600px;
+  border-radius: 20px;
 }
 
 /* contains the rest of the projects 2-6 */
-/* .project-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px;
+.row.row-cols-1.row-cols-md-2.g-4 {
+  margin: 20px;
 }
-
-.project-card {
-  border-style: solid;
-  width: 300px;
-  margin: 15px;
-  border-color: var(--main-text);
-  background-image: url("../images/coding.jpg");
-} */
-/* placeholder images are temporary till projects are complete */
-/* .project-card img {
-  width: 265px;
-  height: 250px;
-  padding-bottom: 20px;
-} */
 
 /* depending on device viewpoint */
 @media screen and (max-width: 1408px) {
@@ -178,8 +156,8 @@ body {
     margin: 15px;
   }
 
-  .card.border-success {
-    max-width: 15rem;
+  .card {
+    max-width: 20rem;
     margin: auto;
     margin-bottom: 20px;
   }
