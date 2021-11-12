@@ -7,10 +7,6 @@
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     />
     <link
@@ -23,48 +19,27 @@
     <title>Personal Portfolio</title>
   </head>
 
-  <body>
-    <header>
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <div class="logo">
-            <div class="navbar-item" width="112" height="30">
-              <i class="fas fa-scroll"></i>
-              <span class="logo-title"> Personal Portfolio</span></a>
-            </div>
-          </div>
-
-          <a
-            role="button"
-            class="navbar-burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
+  <header>
+    <nav class="navbar navbar-default">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#about-me"
+            >About</a
           >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-list">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-        <div id="navbarBasicExample" class="navbar-menu nav-list">
-          <div class="navbar-end">
-            <li class="nav-item navbar-item">
-              <a href="#projects" id="notification-box">Projects</a>
-            </li>
-            <li class="nav-item navbar-item">
-              <a href="#about-me" id="notification-box">About me</a>
-            </li>
-            <li class="last-nav-item navbar-item">
-              <a href="#contact-list">Contact list</a>
-            </li>
-          </div>
-        </div>
-      </nav>
-    </header>
-
+  <body>
     <!--About me container-->
-    <div class="container">
+    <div class="container" id="about-me">
       <div class="row" style="--bs-gutter-x: 0rem">
         <div class="card border-success col-md-5" style="max-width: 50rem">
           <div class="card-header text-success">About Me 👩🏽‍💻</div>
@@ -89,27 +64,33 @@
             </ul>
 
             <!--all links a responsive and contain an attribute link-->
-            <h5 class="title text-success">Contact Links</h5>
+            <h5 class="title text-success" id="contact-list">Contact Links</h5>
             <div class="contacts">
-             <a href="mailto:asmaa99musse@gmail.com">Email</a>
+              <a href="mailto:asmaa99musse@gmail.com">Email</a>
 
               <a
                 href="https://www.linkedin.com/in/asmaa-m-63994019b/"
                 target="_blank"
-                rel="noopener noreferrer">LinkedIn
+                rel="noopener noreferrer"
+                >LinkedIn
               </a>
 
               <a
                 href="https://github.com/AsmaaMusse"
                 target="_blank"
-                rel="noopener noreferrer">GitHub
+                rel="noopener noreferrer"
+                >GitHub
               </a>
-            </div>   
+            </div>
           </div>
         </div>
 
         <!-- Profile picture  -->
-        <div class="picture col-md-5 ms-auto" style="width: 30rem">
+        <div
+          class="picture col-md-5 ms-auto"
+          style="width: 30rem"
+          id="projects"
+        >
           <img
             src="./assests/images/personal-portrait.jpg"
             alt="personal-portrait"
@@ -124,129 +105,114 @@
       <div class="card-body">
         <h5 class="card-title">Code Refactor</h5>
       </div>
-      <img
-        src="./assests/images/project-pics/marketing-agency-screenshot.jpg"
-        class="card-img-top"
-      />
+      <a
+        href="https://asmaamusse.github.io/Marketing-Agency/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="./assests/images/project-pics/marketing-agency-screenshot.jpg"
+      /></a>
     </div>
 
-
-
-   <!-- Project cards -->
+    <!-- Project cards -->
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <div class="card">
-
           <div class="card-body">
             <h5 class="card-title">Professional Portfolio</h5>
           </div>
 
           <a
-          href="https://asmaamusse.github.io/a.musse-dev-portfolio/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="./assests/images/Portfolio-screenshot.jpg"
-        /></a>
+            href="https://asmaamusse.github.io/a.musse-dev-portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assests/images/Portfolio-screenshot.jpg"
+          /></a>
         </div>
       </div>
 
       <div class="col">
         <div class="card">
-
           <div class="card-body">
             <h5 class="card-title">Password Generator</h5>
           </div>
 
           <a
-          href="https://asmaamusse.github.io/password-generator/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="./assests/images/project-pics/password-generator.jpg"
-        /></a>
+            href="https://asmaamusse.github.io/password-generator/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assests/images/project-pics/password-generator.jpg"
+          /></a>
         </div>
       </div>
 
       <div class="col">
         <div class="card">
-
           <div class="card-body">
             <h5 class="card-title">Code Quiz</h5>
           </div>
 
           <a
-          href="https://asmaamusse.github.io/coding-quiz-challenge/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="./assests/images/project-pics/coding-quiz.jpg"
-        /></a>
+            href="https://asmaamusse.github.io/coding-quiz-challenge/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assests/images/project-pics/coding-quiz.jpg"
+          /></a>
         </div>
       </div>
 
       <div class="col">
         <div class="card">
-
           <div class="card-body">
             <h5 class="card-title">Day Planner</h5>
           </div>
 
           <a
-          href="https://asmaamusse.github.io/day-by-day-calendar/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="./assests/images/project-pics/day-calender.jpg"
-        /></a>
+            href="https://asmaamusse.github.io/day-by-day-calendar/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assests/images/project-pics/day-calender.jpg"
+          /></a>
         </div>
       </div>
 
       <div class="col">
         <div class="card">
-
           <div class="card-body">
             <h5 class="card-title">Weather Dashboard</h5>
           </div>
 
           <a
-          href="https://asmaamusse.github.io/weather-forecast-dashboard/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="./assests/images/project-pics/weather-forecast.jpg"
-        /></a>
+            href="https://asmaamusse.github.io/weather-forecast-dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assests/images/project-pics/weather-forecast.jpg"
+          /></a>
         </div>
       </div>
 
       <div class="col">
         <div class="card">
-
           <div class="card-body">
             <h5 class="card-title">Readers Revival</h5>
           </div>
 
           <a
-          href="https://asmaamusse.github.io/readers-revival/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="./assests/images/project-pics/readers-revival.jpg"
-        /></a>
+            href="https://asmaamusse.github.io/readers-revival/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assests/images/project-pics/readers-revival.jpg"
+          /></a>
         </div>
       </div>
-     </div> 
-
-     
-
-     
-
-     
-
-     
-
-
-
+    </div>
   </body>
 </html>

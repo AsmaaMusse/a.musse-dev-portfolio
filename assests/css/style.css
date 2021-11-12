@@ -21,7 +21,10 @@
 }
 
 .navbar {
+  display: flex;
+  justify-content: flex-end;
   border-collapse: collapse;
+  padding: 20px;
   margin-bottom: 30px;
   background-color: rgb(3, 230, 22);
 }
@@ -96,8 +99,7 @@ body {
 
 .picture img {
   border-radius: 30px;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin: 30px;
   max-height: 30rem;
 }
 
@@ -147,6 +149,12 @@ body {
 }
 
 /* depending on device viewpoint */
+@media screen and (max-width: 1440px) {
+  .card {
+    max-width: 40rem;
+  }
+}
+
 @media screen and (max-width: 1408px) {
   .row {
     display: flex;
@@ -157,7 +165,7 @@ body {
   }
 
   .card {
-    max-width: 20rem;
+    max-width: 40rem;
     margin: auto;
     margin-bottom: 20px;
   }
