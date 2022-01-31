@@ -1,4 +1,4 @@
-# HTML/CSS Personal Portfolio
+# HTML/CSS Personal Portfolio ![MIT](https://img.shields.io/static/v1?label=MIT&message=License&color=orange)
 
 ## Overview
 
@@ -23,8 +23,12 @@ GitHub page:https://github.com/AsmaaMusse/a.musse-dev-portfolio
 
 ## Screenshots:
 
-> Final result
-> ![Portfolio-screenshot.jpg](./assests/images/Portfolio-screenshot.jpg)
+ Final result
+ ![Portfolio-screenshot.jpg](./assests/images/Portfolio-screenshot.jpg)
 
-> Pic on Mobile Viewpoint:
-> ![Veiwpoint-screenshot.jpg](./assests/images/Veiwpoint.portfolio.jpg)
+ Pic on Mobile Viewpoint:
+ ![Veiwpoint-screenshot.jpg](./assests/images/Veiwpoint.portfolio.jpg)
+
+## Contribute
+
+To contribute or ask questions, please <a href="https://mail.google.com/mail/u/0/?tf=cm&to=asmaamusse03@gmail.com&cc&bcc&su&body&fs=1">Email</a> here
