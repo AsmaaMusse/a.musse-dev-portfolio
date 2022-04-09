@@ -1,4 +1,4 @@
-# HTML/CSS Personal Portfolio ![MIT](https://img.shields.io/static/v1?label=MIT&message=License&color=orange)
+# Personal Portfolio ![MIT](https://img.shields.io/static/v1?label=MIT&message=License&color=orange)
 
 ## Overview
 
